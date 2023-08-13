@@ -1,0 +1,17 @@
+server:
+  host: example.com
+  port: 8080
+database:
+  name: mydb
+  credentials:
+    username: user123
+    password: secret
+  tables:
+    - name: table1
+      columns:
+        - id
+        - name
+    - name: table2
+      columns:
+        - id
+        - title
