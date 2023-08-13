@@ -1,7 +1,7 @@
 import yaml
 
 # Specify the path to your YAML file
-yaml_file_path = '/mnt/c/Users/Public/github/python-hacks/examples/second.yaml'
+yaml_file_path = '/mnt/c/Users/Public/github/python-hacks/examples/first.yaml'
 
 # Open the YAML file and load its content
 with open(yaml_file_path, 'r') as yaml_file:
