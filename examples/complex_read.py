@@ -13,15 +13,19 @@ database_info = complex_yaml_content['database']
 table_info = database_info['tables']
 
 print("Server Information:")
+
 print(f"Host: {server_info['host']}")
 print(f"Port: {server_info['port']}")
+
 print("\nDatabase Information:")
+
 print(f"Name: {database_info['name']}")
 print(f"Username: {database_info['credentials']['username']}")
 print(f"Password: {database_info['credentials']['password']}")
+
 print("\nTable Information:")
 print(f"Hello")
 for table in table_info:
     print(f"Table Name: {table['name']}")
     print(f"Columns: {', '.join(table['columns'])}")
-    print()
+    print("\n")
