@@ -26,8 +26,8 @@ data_to_insert = {
     'PersonID': 123,
     'LastName': 'Sharma',
     'FirstName': 'Bhoopesh',
-    'Address': 'ABC Colony',
-    'City': 'New York'
+    'Address': 'def Colony',
+    'City': 'Noida'
     # Add more columns and values as needed
 }
 
